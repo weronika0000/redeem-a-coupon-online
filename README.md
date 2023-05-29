@@ -8,3 +8,15 @@ This project is a one-day project done during my software development training. 
 Users have information such as ID, first name, last name, total price, and a list of coupons that have been sent to them (possibly by post or email). Each coupon has an ID, a value in a specified currency, and a number of remaining times it can be used.
 
 The application verifies if the coupons can be redeemed based on the number of remaining times and whether their value exceeds the user's total price. If the conditions are met, the application updates the database and displays a page confirming the successful redemption. If any of the checks fail, the application presents a page with an appropriate message.
+
+## Frameworks
+
+Spring, Springboot, MVC, Hibernate
+
+## Required Deliverables
+
+For this project, I was required to submit the following:
+-code solution that accomplishes the following tasks:
+  - Lists all the coupons for each user ID stored in the database.
+  - Allows users to redeem a coupon from their list of coupons by inputting their user ID and coupon ID.
+  - Displays a page that confirms the transaction details for the redeemed coupon.
